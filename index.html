@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع أفلام</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- رأس الموقع -->
+    <header>
+        <div class="logo">🎬 أفلامنا</div>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">أفلام</a></li>
+                <li><a href="#">مسلسلات</a></li>
+                <li><a href="#">أنمي</a></li>
+                <li><a href="#">المفضلة</a></li>
+                <li><a href="#">تسجيل/دخول</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- شريط البحث -->
+    <section class="search-bar">
+        <input type="text" placeholder="ابحث عن فيلم أو مسلسل...">
+        <button onclick="searchMovies()">بحث</button>
+    </section>
+
+    <!-- قسم الأفلام المميزة -->
+    <section class="featured">
+        <h2>أحدث الأفلام</h2>
+        <div class="movies-grid" id="movies-grid">
+            <!-- سيتم ملؤه بواسطة JavaScript -->
+        </div>
+    </section>
+
+    <!-- تذييل الموقع -->
+    <footer>
+        <p>حقوق النشر &copy; 2025 | جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
